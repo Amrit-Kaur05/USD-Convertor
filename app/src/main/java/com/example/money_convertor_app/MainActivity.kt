@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             val usdValue = usdInput.getText().toString()
 
             // converting USD to Rupee
-            val convertedRupee = (usdValue.toInt())*85.74
+            val convertedRupee = (usdValue.toInt())*85.72
 
             // assigning the rupee output as a variable
             val rupeeOutput = findViewById<TextView>(R.id.outputRupee)
